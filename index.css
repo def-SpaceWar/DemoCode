@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  --var: #ffffff;
+  --num: 100px;
+}
+
+.text {
+  color: var(--var);
+}
+
+#container {
+  padding: var(--num);
+}
+
+a:hover {
+  background-color: blue;
+}
+
+a::after {
+  color: red;
+}
